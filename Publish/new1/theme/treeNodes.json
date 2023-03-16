@@ -1,0 +1,6 @@
+{
+"treeViews":[
+{"id": "view:_aMBBML5OEe2h4rpimgIENg", "objectId": "_aMBBML5OEe2h4rpimgIENg", "label": "Meal Planning Navigation Views", "src": "theme/meal_planning_nav_views_B2BA280.json", "isDefault": true}],
+
+"treeNodePaths":{"_iwSkEbjXEe27htaXTmHK0g":[{"view": "view:_aMBBML5OEe2h4rpimgIENg", "path": ["_aMBBML5OEe2h4rpimgIENg", "_j7eJEL5OEe2h4rpimgIENg", "_iwSkEbjXEe27htaXTmHK0g"]}, {"view": "view:_aMBBML5OEe2h4rpimgIENg", "path": ["_aMBBML5OEe2h4rpimgIENg", "_j7eJEL5OEe2h4rpimgIENg", "_iwSkEbjXEe27htaXTmHK0g"]}]
+}}

@@ -1,0 +1,6 @@
+{
+	"name": "rmcwidget",
+	"main": "include",
+	"version": "7.5.3",
+	"dojoBuild": "package.js"
+}

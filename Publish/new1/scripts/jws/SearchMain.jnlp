@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+"
+	codebase=""
+	href="SearchMain.jnlp">
+	<information>
+  		<title>Static Method Search</title>
+  		<vendor>IBM</vendor>
+  		<homepage href="http://www.ibm.com" />
+  		<description>JWS with RMC static method search</description>
+	</information>
+
+	<security>
+		<all-permissions />
+	</security>
+
+	<resources>
+		<j2se version="1.4+" />
+		<jar href="SearchMain.jar" main="true"		/>
+	</resources>
+	
+	<!-- <resources>
+		<jar href="epf-web-search.jar" />
+	</resources>
+
+	<resources>
+		<jar href="epf-web.jar" />
+	</resources>
+
+	<resources>
+		<jar href="icu4j_3_4.jar" />
+	</resources>
+
+	<resources>
+		<jar href="lucene-core-1.9.1.jar" />
+	</resources>
+
+	<resources>
+		<jar href="swt-win32-windows-x86.jar" />
+	</resources> -->
+
+	<application-desc main-class="SearchMain" /> 
+
+</jnlp>

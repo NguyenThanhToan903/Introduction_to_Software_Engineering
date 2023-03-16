@@ -1,0 +1,565 @@
+#comment-top {
+	float: left;
+	width: 100%
+}
+
+#bg {
+	background: url(../images/loading.gif) no-repeat center center;
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index: 1001;
+	-moz-opacity: 0.7;
+	opacity: .70;
+	filter: alpha(opacity = 70);
+}
+
+#hint {
+	color: #777;
+	font-family: 'Helvetica', 'Lucida Grande', 'Arial', sans-serif;
+	font-size: 20px;
+	margin: 1em 0em 0em 0em;
+}
+
+.rain {
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 320px;
+	/* 	background: #abc; */
+	color: #DDD;
+	font-family: 'Helvetica', 'Lucida Grande', 'Arial', sans-serif;
+	padding: 10px 12px 12px 10px;
+	/* 	-moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 1) inset, -9px -9px 8px */
+	/* 		rgba(0, 0, 0, 1) inset; */
+	/* 	-webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 1) inset, -9px -9px 8px */
+	/* 		rgba(0, 0, 0, 1) inset; */
+	/* 	box-shadow: 8px 8px 8px rgba(0, 0, 0, 1) inset, -9px -9px 8px */
+	/* 		rgba(0, 0, 0, 1) inset; */
+	margin: 0em, 1em, 1em, 1em;
+}
+
+.rain a,img {
+	border: 0;
+}
+
+.rain .border {
+	padding: 1px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.rain .rain.unfocus {
+	background: #abc !important;
+	-webkit-animation-name: none;
+}
+
+.rain form {
+	background: #212121;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	height: 280px;
+	width: 100%;
+	background: -moz-radial-gradient(50% 46% 90deg, circle closest-corner, #969696,
+		#C0C0C0);
+	background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 150, from(#969696),
+		to(#C0C0C0));
+}
+
+.rain form label {
+	display: block;
+	padding: 10px 10px 5px 15px;
+	font-size: 15px;
+	color: #777;
+}
+
+.rain form input {
+	display: block;
+	margin: 5px 10px 10px 15px;
+	width: 85%;
+	background: #FFF;
+	-moz-box-shadow: 0px 0px 4px #abc inset;
+	-webkit-box-shadow: 0px 0px 4px #abc inset;
+	box-shadow: 0px 0px 4px #abc inset;
+	outline: 1px solid #abc;
+	border: 1px solid #abc;
+	padding: 5px;
+	color: #000000;
+	font-size: 15px;
+}
+
+.rain form input:focus {
+	outline: 1px solid #3399CC;
+	color: #000000;
+}
+
+.rain input[type="submit"] {
+	color: #3399FF;
+	padding: 5px 10px;
+	border: 0px solid #969696;
+	font-weight: lighter;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	background: #FFFFFF;
+	background: -moz-linear-gradient(top, #FFFFFF 0%, #111 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFFFFF),
+		color-stop(100%, #abc));
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DDDDDD',
+		endColorstr='#FFFFFF', GradientType=0);
+	-moz-box-shadow: 0px 1px 1px #abc, 0px 1px 0px rgba(255, 255, 255, .3)
+		inset;
+	-webkit-box-shadow: 0px 1px 1px #abc, 0px 1px 0px
+		rgba(255, 255, 255, .3) inset;
+	box-shadow: 0px 1px 1px #abc, 0px 1px 0px rgba(255, 255, 255, .3) inset;
+	text-shadow: 0 1px 1px #abc;
+	outline: none;
+	width: 80px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.rain input[type="submit"]:hover {
+	-webkit-box-shadow: 0 0 10px #3399FF;
+	-moz-box-shadow: 0 0 10px #3399FF;
+	box-shadow: 0 0 10px #3399FF;
+}
+
+.rain .rain-message {
+	color: #FF0000;
+	padding-left: 15px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#comment-waitting {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/*------------------------------------for comment-----------------------------------------------------*/
+#comment-form-summary {
+	width: 90%;
+	height: 30px;
+	float: left;
+	position: relative;
+	padding: 1px 1px 1px 1px;
+	border: 1px solid #ddd;
+	color: gray;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13pt;
+}
+
+#comment-form-description {
+	width: 90%;
+	height: 50px;
+	float: left;
+	position: relative;
+	padding: 1px 1px 1px 1px;
+	margin-top: 1.0em;
+	border: 1px solid #ddd;
+	color: gray;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	resize: none;
+	font-size: 13pt;
+}
+
+#comment-form-comment {
+	font-size: 15px;
+	width: 100%;
+	height: 90%;
+	float: left;
+	position: relative;
+	padding: 1px 1px 1px 1px;
+	border: 1px solid #ddd;
+	color: gray;
+	margin: 5px 5px 5px 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	resize: none;
+}
+
+.comment-submit {
+	width: 10%;
+}
+
+.comment-submit input[type=button] {
+	width: 120px;
+	float: left;
+	position: relative;
+	padding: 1px 1px 1px 1px;
+	border: 1px solid #ddd;
+	cursor: pointer;
+	margin: 0.5em 0em 0.5em 0em;
+}
+
+.basic-comment ul#comment_tree  li  ul.replies .comment-submit input[type=button]
+	{
+	margin: 1.5em 0em 0.5em 8em;
+}
+
+.comment-submit input[type=button]:hover {
+	-webkit-box-shadow: 0 0 10px #0CC;
+	-moz-box-shadow: 0 0 10px #0CC;
+	box-shadow: 0 0 10px #0CC;
+}
+
+.basic-comment .display_name {
+	margin-top: 1.0em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.basic-comment {
+	/* 	background: #abc; */
+	font-size: 150%;
+}
+
+.basic-comment ol,ul {
+	list-style: none;
+}
+
+.basic-comment * {
+	margin: 0;
+	padding: 0;
+}
+
+.basic-comment p {
+	font-size: 15px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+	
+.basic-comment div#comments {
+	width: 95%;
+	clear: both;
+	background: #EDEDED;
+	border: 1px solid #ddd;
+	padding: 0.5em;
+}
+
+.basic-comment img {
+	width: 3em;
+	height: 3em;
+}
+
+.basic-comment ul#comment_tree {
+	margin: 0.5em 0 0.5em 0;
+	max-width: 1080px;
+}
+
+.basic-comment ul#comment_tree li {
+	/* 	margin-bottom: 1em; */
+	
+}
+
+.basic-comment ul#comment_tree div.member {
+	width: 22%;
+	max-width: 85px;
+	float: left;
+	background: #EDEDED;
+	display: block;
+	z-index: 1000;
+}
+
+.basic-comment ul#comment_tree div.member img.user_photo {
+	display: block;
+}
+
+.basic-comment ul#comment_tree div.member h5.display_name {
+	margin-bottom: 0.3em;
+	text-align: left;
+	padding-left: 5px;
+	color: #333;
+	width: 85px;
+}
+/*--------------------------------------------------------------------
+    Comments Box Layout     
+  --------------------------------------------------------------------*/
+.basic-comment ul#comment_tree div.comment {
+	width: 100%;
+	background: #fff;
+	float: left;
+	position: relative;
+	padding: 1.0em 15px 5px 5px;
+	border: 1px solid #ddd;
+}
+
+.basic-comment ul#comment_tree div.comment_submit {
+	width: 70%;
+	background: #fff;
+	float: left;
+	position: relative;
+	border: 1px solid #ddd;
+	top: 35px;
+	margin-left: 1em;
+}
+
+.basic-comment ul#comment_tree div.comment_submit .comment-summary{
+	margin: 1em;
+}
+
+.basic-comment ul#comment_tree div.comment_submit .comment-description{
+	margin: 1em;
+}
+
+.basic-comment ul#comment_tree div.comment_submit .comment-submit{
+	margin: 1em;
+}
+
+.basic-comment ul#comment_tree h6.comment_date {
+	position: absolute;
+	left: -32px;
+	line-height: 20px;
+	height: 32px;
+	color: gray;
+	background: url(../images/comment_arrow_bg.png) no-repeat left top;
+	padding-left: 4em;
+	font-size: 15px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/*--------------------------------------------------------------------
+    Comments Content Copy Layout     
+  --------------------------------------------------------------------*/
+.basic-comment div.comment div.comment_content {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	margin-top: 3em;
+	z-index: 999;
+	padding-left: 1em;
+}
+
+.basic-comment div.comment div.comment_content .comment_content_subject
+	{
+	font-size: 15px;
+	color: gray;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.basic-comment div.comment div.comment_content .comment_content_summary
+	{
+	/* 	font-size: 10px; */
+	
+}
+
+.basic-comment div.comment div.comment_content .comment_content_description
+	{
+	word-wrap: break-word;
+	word-break: break-all;
+	margin-top: 1em;
+}
+
+.basic-comment div.comment-popup {
+	cursor: pointer;
+	float: left;
+	width: 70%;
+	margin-top: 2.5em;
+	margin-left: 1em;
+}
+
+/* .basic-comment div.comment:hover { */
+/* 	-webkit-box-shadow: 0 0 10px #0CC; */
+/* 	-moz-box-shadow: 0 0 10px #0CC; */
+/* 	box-shadow: 0 0 10px #0CC; */
+/* 	font-family: Verdana, Arial, Helvetica, sans-serif; */
+/* 	font-size : medium ; */
+/* } */
+.hide-WI-link {
+	color: blue;
+	position: relative;
+	border: 0px solid #ddd;
+	margin-left: 1.0em;
+	margin-right: 1.0em;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.hide-WI-link:hover {
+	-webkit-box-shadow: 0 0 10px #0CC;
+	-moz-box-shadow: 0 0 10px #0CC;
+	box-shadow: 0 0 10px #0CC;
+}
+
+/*--------------------------------------------------------------------
+    Reply Comment Layout
+  --------------------------------------------------------------------*/
+.basic-comment ul#comment_tree  li  ul.replies {
+	border-left: 1px solid #ddd;
+	margin-left: 10%;
+	padding-top: 0.1em;
+}
+
+.basic-comment ul#comment_tree  li  ul.replies * ul.replies {
+	margin-left: 24px;
+	border-left: 1px solid #ddd;
+	padding-top: 1em;
+}
+
+.basic-comment ul#comment_tree  li  ul.replies div.comment_content {
+	margin-top: 0;
+}
+
+.basic-comment ul#comment_tree li.reply {
+	background: url(../images/comment_li_bg.gif) no-repeat left 2.5em;
+	padding-left: 10px;
+}
+
+.basic-comment ul#comment_tree li.reply div.comment_wrapper {
+	position: relative;
+	margin-top: 5px;
+}
+
+.basic-comment ul#comment_tree li.reply div.comment_wrapper .comment-description
+	{
+	margin-top: -3em;
+	width: 100%;
+	height: 55px;
+	max-width: 1080px;
+}
+
+.basic-comment ul#comment_tree li.reply div.member {
+	position: absolute;
+	width: 45px;
+	padding-right: 0;
+	background: #EDEDED;
+	top: -20px;
+}
+
+.basic-comment ul#comment_tree li.reply div.member img {
+	float: left;
+}
+
+.basic-comment ul#comment_tree li.reply div.member img.user_photo {
+	width: 45px;
+	height: 45px;
+}
+
+.basic-comment ul#comment_tree li.reply div.member h5.display_name {
+	left: 55px;
+	top: 0;
+	margin: 15px 0px 5px 0px;
+	text-align: left;
+}
+
+.basic-comment ul#comment_tree li ul.replies h6.comment_date {
+	background: url(../images/comment_arrow_bg.png) no-repeat left top;
+	top: 10px;
+	padding-left: 0;
+	z-index: 1000;
+	padding-left: 3em;
+}
+
+.basic-comment ul#comment_tree li ul.replies li div.comment {
+	word-wrap: break-word;
+	word-break: break-all;
+	width: 65%;
+	max-width: 1080px;
+	float: none;
+	padding-top: 3em;
+	z-index: 1000;
+	left: 80px;
+	top: 15px;
+	margin-top: 20px;
+}
+
+.basic-comment ul#comment_tree li ul.replies li div.comment div.comment_content {
+	padding-top: 1em;
+}
+
+/*-------------------------------------------------------------------- 
+    Clean Floating Tag
+  --------------------------------------------------------------------*/
+.basic-comment .clearfix:after {
+	content: ".";
+	clear: both;
+	height: 0;
+	display: block;
+	visibility: hidden;
+}
+
+.basic-comment .clearfix {
+	width: 100%;
+}
+
+.basic-comment .expand-comment {
+	background: url(../images/expand.gif) no-repeat left;
+	height: 16px;
+}
+
+.basic-comment .collapse-comment {
+	background: url(../images/collapse.gif) no-repeat left;
+	height: 16px;
+}
+
+#go-to-end {
+	position: relative;
+	border: 0px solid #DDD;
+	cursor: pointer;
+	float: right;
+	width: 23px;
+	height: 23px;
+	background: url(../images/bottom.png) no-repeat;
+}
+
+#go-to-end:hover {
+	-webkit-box-shadow: 0 0 10px #3399FF;
+	-moz-box-shadow: 0 0 10px #3399FF;
+	box-shadow: 0 0 10px #3399FF;
+}
+
+#back-to-beginning {
+	position: relative;
+	border: 0px solid #DDD;
+	cursor: pointer;
+	width: 23px;
+	height: 23px;
+	float: right;
+	background: url(../images/top.png) no-repeat;
+	margin-top: 3em;
+}
+
+#back-to-beginning:hover {
+	-webkit-box-shadow: 0 0 10px #3399FF;
+	-moz-box-shadow: 0 0 10px #3399FF;
+	box-shadow: 0 0 10px #3399FF;
+}
+
+.log-out-message-top{
+	width: 70px;
+	float: left;
+	position: relative;
+	padding: 1px 1px 1px 1px;
+	border: 1px solid #ddd;
+	cursor: pointer;
+	margin: 0em 0em 0.5em 0em;
+}
+
+.log-out-message-top:hover {
+	-webkit-box-shadow: 0 0 10px #3399FF;
+	-moz-box-shadow: 0 0 10px #3399FF;
+	box-shadow: 0 0 10px #3399FF;
+}
+
+.log-out-message-bottom{
+	width: 70px;
+	float: left;
+	position: relative;
+	padding: 1px 1px 1px 1px;
+	border: 1px solid #ddd;
+	cursor: pointer;
+	margin: 4em 0em 0.5em 0em;
+}
+
+.log-out-message-bottom:hover {
+	-webkit-box-shadow: 0 0 10px #3399FF;
+	-moz-box-shadow: 0 0 10px #3399FF;
+	box-shadow: 0 0 10px #3399FF;
+}
+
+#comment-top-div{
+	height : 45px;
+}

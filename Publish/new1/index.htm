@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:fo="http://www.w3.org/1999/XSL/Format" lang="en" xml:lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE11">
+<link rel="stylesheet" href="./css/style.css" media="screen">
+<link rel="stylesheet" href="./scripts/compileddojo/dijit/themes/claro/claro.css">
+<title>Meal Planning</title>
+
+<meta name="meta_tagged" content="true">
+<meta name="rmc" content="7.0.1">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=4,user-scalable=yes">
+<link type="text/css" href="skin/main.css" rel="StyleSheet">
+<link type="text/css" href="skin/treeNodesIcons.css" rel="StyleSheet">
+<script type="text/javascript">
+	dojoConfig = {
+			async: true,
+			isDebug: true,
+			baseUrl: '.',
+			tlmSiblingOfDojo: false,
+			has: {'dojo-firebug': true},
+			parseOnLoad: true,
+			packages: [
+			{ name: "dojo", location: "scripts/compileddojo/dojo"},
+			{ name: "dijit", location: "scripts/compileddojo/dijit"},
+			{ name: "dojox", location: "scripts/compileddojo/dojox"},
+			{ name: "theme", location: "theme"},
+			{ name: "rmcwidget", location: "scripts/compileddojo/rmcwidget"}
+			]
+		};	
+				</script><script type="text/javascript" src="scripts/compileddojo/dojo/dojo.js"></script>
+</head>
+<body class="claro">
+<div id="appLayout" data-dojo-type="dijit/layout/BorderContainer" data-dojo-props="design: 'headline'">
+<div data-dojo-type="BannerWidget" data-dojo-props="region: 'top'"></div>
+<div id="navigationContainer" class="hide"></div>
+<div id="navigationContainer" class="show"></div>
+<div class="centerPanel" data-dojo-type="IFrameContentPane" id="contentPanel" data-dojo-props="region: 'center'">
+<iframe id="contentContainer" style="height: 100%; width: 100%; border: none"></iframe>
+</div>
+</div>
+<script>
+	require([
+"theme/app"
+	], function(app) {
+	app.init();
+	if(app.settings.showTreeBrowser == true){
+	document.getElementById('navigationContainer').className = 'show';
+	}
+	else {
+	document.getElementById('navigationContainer').className = 'hide';
+	}
+	});
+</script>
+</body>
+</html>

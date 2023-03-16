@@ -1,0 +1,46 @@
+[
+
+{objectId: "_aMBBML5OEe2h4rpimgIENg", title: "Meal Planning Navigation Views", url: "meal_planning/customcategories/meal_planning_nav_views_B2BA280.html", nodeDocType: "fbd98105", 
+children: [
+
+{objectId: "_j7eJEL5OEe2h4rpimgIENg", title: "Meal Planning", url: "meal_planning/customcategories/meal_planning_home_view_A49E650E.html", nodeDocType: "fbd98105", 
+children: [
+
+{objectId: "_iwSkEbjXEe27htaXTmHK0g", title: "Entertain Guest", url: "meal_planning/deliveryprocesses/entertain_guests_CC4B666B.html", nodeDocType: "8babdb11", 
+children: [
+
+{objectId: "_pHNC0bjXEe27htaXTmHK0g", title: "Go sightseeing", url: "meal_planning/deliveryprocesses/go_sightseeeing_611E6B87.html?proc=_iwSkEbjXEe27htaXTmHK0g&path=_iwSkEbjXEe27htaXTmHK0g,_pHNC0bjXEe27htaXTmHK0g", nodeDocType: "6acfa085"},
+{objectId: "_SA5ZILjYEe27htaXTmHK0g", title: "Host a Meal", url: "meal_planning/deliveryprocesses/Host a Meal_44CBD53F.html?proc=_iwSkEbjXEe27htaXTmHK0g&path=_iwSkEbjXEe27htaXTmHK0g,_SA5ZILjYEe27htaXTmHK0g", nodeDocType: "2ebe500e", 
+children: [
+
+{objectId: "_J_RhgLjXEe27htaXTmHK0g", title: "Plan Meal", url: "meal_planning/capabilitypatterns/plan_meal_2FE8C178.html?proc=_iwSkEbjXEe27htaXTmHK0g&path=_iwSkEbjXEe27htaXTmHK0g,_SA5ZILjYEe27htaXTmHK0g,_J_RhgLjXEe27htaXTmHK0g", nodeDocType: "2ebe500e"},
+{objectId: "_J_RhgrjXEe27htaXTmHK0g", title: "Prepare Meal", url: "meal_planning/capabilitypatterns/prepare_meal_291FB59E.html?proc=_iwSkEbjXEe27htaXTmHK0g&path=_iwSkEbjXEe27htaXTmHK0g,_SA5ZILjYEe27htaXTmHK0g,_J_RhgrjXEe27htaXTmHK0g", nodeDocType: "2ebe500e"},
+{objectId: "_J_RhhLjXEe27htaXTmHK0g", title: "serve_meal", url: "meal_planning/capabilitypatterns/serve_meal_F47AA397.html?proc=_iwSkEbjXEe27htaXTmHK0g&path=_iwSkEbjXEe27htaXTmHK0g,_SA5ZILjYEe27htaXTmHK0g,_J_RhhLjXEe27htaXTmHK0g", nodeDocType: "2ebe500e"},
+{objectId: "_HDzO4LjXEe27htaXTmHK0g", title: "Clean Up", url: "meal_planning/capabilitypatterns/clean_up_C1514E71.html?proc=_iwSkEbjXEe27htaXTmHK0g&path=_iwSkEbjXEe27htaXTmHK0g,_SA5ZILjYEe27htaXTmHK0g,_HDzO4LjXEe27htaXTmHK0g", nodeDocType: "2ebe500e"}]}]},
+{objectId: "_bzkRQLjREe27htaXTmHK0g", title: "Meal Support", url: "meal_planning/disciplines/meal_support_130FC17C.html", nodeDocType: "32bda866", 
+children: [
+
+{objectId: "_14x1sLjIEe27htaXTmHK0g", title: "Prepare Meal", url: "meal_planning/tasks/prepare_meal_148E7C8E.html", nodeDocType: "eb56c7fb"},
+{objectId: "_poJ8ILjJEe27htaXTmHK0g", title: "Serve Meal", url: "meal_planning/tasks/serve_meal_313876CA.html", nodeDocType: "eb56c7fb"},
+{objectId: "_zmFj4LjUEe27htaXTmHK0g", title: "Clean Up", url: "meal_planning/tasks/clean_up_A2759874.html", nodeDocType: "eb56c7fb"},
+{objectId: "_xjn84LjUEe27htaXTmHK0g", title: "Invite Guest", url: "meal_planning/tasks/invite_guest_75A1A9D9.html", nodeDocType: "eb56c7fb"},
+{objectId: "_orYw4LjUEe27htaXTmHK0g", title: "Make Menu", url: "meal_planning/tasks/make_menu_BC5D3EFE.html", nodeDocType: "eb56c7fb"},
+{objectId: "_bX790LjUEe27htaXTmHK0g", title: "Plan Meal", url: "meal_planning/tasks/plan_meal_FB0027F9.html", nodeDocType: "eb56c7fb"},
+{objectId: "_liBMMLjUEe27htaXTmHK0g", title: "Shop for Food", url: "meal_planning/tasks/shop_for_food_5C2C366C.html", nodeDocType: "eb56c7fb"}]},
+{objectId: "_N0o4QLjREe27htaXTmHK0g", title: "Meal Support", url: "meal_planning/domains/meal_support_70F61AA4.html", nodeDocType: "2c9c27ba", 
+children: [
+
+{objectId: "_42pKcLjHEe27htaXTmHK0g", title: "Meal", url: "meal_planning/workproducts/meal_92336FDA.html", nodeDocType: "e1a899c8"},
+{objectId: "_CjiGgLjIEe27htaXTmHK0g", title: "Recipe", url: "meal_planning/workproducts/recipe_158BA283.html", nodeDocType: "e1a899c8"}]},
+{objectId: "_kXUbALjREe27htaXTmHK0g", title: "Meal Support Personnel", url: "meal_planning/rolesets/meal_support_personnel_CB1243E7.html", nodeDocType: "ff46a2c2", 
+children: [
+
+{objectId: "_TByosLjIEe27htaXTmHK0g", title: "Chef", url: "meal_planning/roles/chef_E019F076.html", nodeDocType: "f3e5326c"},
+{objectId: "_kY3z0LjJEe27htaXTmHK0g", title: "Server", url: "meal_planning/roles/server_7F9A94CB.html", nodeDocType: "f3e5326c"}]},
+{objectId: "_AlA8YL5PEe2h4rpimgIENg", title: "Guidance", url: "meal_planning/customcategories/meal_planning_guidance_6162650B.html", nodeDocType: "fbd98105", 
+children: [
+
+{objectId: "_MXyZYLjJEe27htaXTmHK0g", title: "Meal Preparation Tips", url: "meal_planning/guidances/guidelines/meal_preparation_tips_CBA75D79.html", nodeDocType: "eeccbda6"},
+{objectId: "_1_eeILjJEe27htaXTmHK0g", title: "Patron Etiquette", url: "meal_planning/guidances/guidelines/patron_etiquette_E1C4FC8B.html", nodeDocType: "eeccbda6"}]}]}]}
+]
+

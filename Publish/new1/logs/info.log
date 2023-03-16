@@ -1,0 +1,47 @@
+Info: : 1211 mini-second(s) publishing element CustomCategory:meal_planning_nav_views[meal_planning\customcategories\meal_planning_nav_views_B2BA280.html]
+Info: CustomCategory:meal_planning_nav_views: 1211 mini seconds publishing element
+Info: CustomCategory:meal_planning_home_view: 38 mini seconds publishing element
+Info: : 4728 mini-second(s) publishing element DeliveryProcess:entertain_guests[meal_planning\deliveryprocesses\entertain_guests_CC4B666B.html]
+Info: DeliveryProcess:entertain_guests: 4728 mini seconds publishing element
+Info: DeliveryProcess:entertain_guests: 1656 mini seconds publishing process specific layout data
+Info: Activity:go_sightseeeing: 65 mini seconds publishing element
+Info: CapabilityPattern:Host a Meal: 105 mini seconds publishing element
+Info: CapabilityPattern:plan_meal: 190 mini seconds publishing element
+Info: CapabilityPattern:prepare_meal: 229 mini seconds publishing element
+Info: CapabilityPattern:serve_meal: 206 mini seconds publishing element
+Info: CapabilityPattern:clean_up: 77 mini seconds publishing element
+Info: Discipline:meal_support: 21 mini seconds publishing element
+Info: Task:prepare_meal: 855 mini seconds publishing element
+Info: Task:serve_meal: 24 mini seconds publishing element
+Info: Task:clean_up: 13 mini seconds publishing element
+Info: Task:invite_guest: 5 mini seconds publishing element
+Info: Task:make_menu: 12 mini seconds publishing element
+Info: Task:plan_meal: 16 mini seconds publishing element
+Info: Task:shop_for_food: 11 mini seconds publishing element
+Info: Domain:meal_support: 12 mini seconds publishing element
+Info: Artifact:meal: 744 mini seconds publishing element
+Info: Artifact:recipe: 12 mini seconds publishing element
+Info: RoleSet:meal_support_personnel: 26 mini seconds publishing element
+Info: Role:chef: 617 mini seconds publishing element
+Info: Role:server: 42 mini seconds publishing element
+Info: CustomCategory:meal_planning_guidance: 12 mini seconds publishing element
+Info: Guideline:meal_preparation_tips: 505 mini seconds publishing element
+Info: Guideline:patron_etiquette: 15 mini seconds publishing element
+Info: TaskDescriptor:plan_meal: 629 mini seconds publishing element
+Info: TaskDescriptor:make_menu: 10 mini seconds publishing element
+Info: TaskDescriptor:invite_guest: 5 mini seconds publishing element
+Info: TaskDescriptor:shop_for_food: 14 mini seconds publishing element
+Info: TaskDescriptor:prepare_meal: 23 mini seconds publishing element
+Info: TaskDescriptor:serve_meal: 18 mini seconds publishing element
+Info: TaskDescriptor:clean_up: 10 mini seconds publishing element
+Info: RoleDescriptor:chef: 638 mini seconds publishing element
+Info: RoleDescriptor:server: 16 mini seconds publishing element
+Info: WorkProductDescriptor:meal: 724 mini seconds publishing element
+Info: WorkProductDescriptor:recipe: 16 mini seconds publishing element
+Info: CapabilityPattern:host_a_meal: 399 mini seconds publishing element
+Info: CapabilityPattern:host_a_meal: 661 mini seconds publishing process specific layout data
+Info: RoleDescriptor:chef: 16 mini seconds publishing element
+Info: WorkProductDescriptor:meal: 20 mini seconds publishing element
+Info: WorkProductDescriptor:recipe: 41 mini seconds publishing element
+Info: WorkProductDescriptor:meal: 12 mini seconds publishing element
+Info: : Publishing time: 0 minutes 20 seconds

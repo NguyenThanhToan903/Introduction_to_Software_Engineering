@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RoleSets nodeId="61417a3a">
+<RoleSet nodeId="df4ff22a" name="meal_support_personnel" pname="Meal Support Personnel">
+<Role nodeId="180c8a0" name="chef" pname="Chef"></Role>
+<Role nodeId="79363e8c" name="server" pname="Server"></Role>
+</RoleSet>
+</RoleSets>
