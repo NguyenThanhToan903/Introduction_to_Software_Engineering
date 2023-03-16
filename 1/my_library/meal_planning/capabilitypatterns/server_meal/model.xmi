@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_5Z984L5MEe2VhOrwIKmwbA" guid="_5Z984L5MEe2VhOrwIKmwbA">
+    <resourceDescriptors xmi:id="_5Z984b5MEe2VhOrwIKmwbA" id="-BGj2hKdlyY8Jq50o4THy_Q" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_5ZXf8L5MEe2VhOrwIKmwbA" name="server_meal" guid="_5ZXf8L5MEe2VhOrwIKmwbA">
+    <methodElementProperty xmi:id="_5ZXf8r5MEe2VhOrwIKmwbA" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="__LTCUL5MEe2VhOrwIKmwbA" name="me_edited" value="true"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_7yG48L5MEe2VhOrwIKmwbA" name="server_meal" guid="_7yG48L5MEe2VhOrwIKmwbA" presentationName="Server Meal" superActivities="_5ZXf8b5MEe2VhOrwIKmwbA" isSynchronizedWithSource="false" mandatoryInput="_7yG49b5MEe2VhOrwIKmwbA" optionalInput="_7yG4875MEe2VhOrwIKmwbA" output="_7yG49b5MEe2VhOrwIKmwbA" performedPrimarilyBy="_7yG48b5MEe2VhOrwIKmwbA">
+      <methodElementProperty xmi:id="_7yG4975MEe2VhOrwIKmwbA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <methodElementProperty xmi:id="_k5PfQL5WEe2VhOrwIKmwbA" name="descriptor_localUsingInfo" value="_7yG49b5MEe2VhOrwIKmwbA/mandatoryInput"/>
+      <Task href="uma://_5WphYL3DEe2LKs9kSIoQqg#_PV2HIL3FEe2LKs9kSIoQqg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_7yG48b5MEe2VhOrwIKmwbA" name="server" guid="_7yG48b5MEe2VhOrwIKmwbA" presentationName="Server" briefDescription="This role understands the techniques for serving a &#xD;&#xA;meal to a patron.&lt;p/>This role will &#xD;&#xA;also act as the Sommelier or wine expert. He/She will provide the wine &#xD;&#xA;list, and recommend wines to go with the meal." isPlanned="false" superActivities="_5ZXf8b5MEe2VhOrwIKmwbA" modifies="_7yG49b5MEe2VhOrwIKmwbA" responsibleFor="_7yG4875MEe2VhOrwIKmwbA">
+      <methodElementProperty xmi:id="_7yG48r5MEe2VhOrwIKmwbA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_7yG4-L5MEe2VhOrwIKmwbA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Role href="uma://_5WphYL3DEe2LKs9kSIoQqg#_BZDcIL3FEe2LKs9kSIoQqg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_7yG4875MEe2VhOrwIKmwbA" name="wine_list" guid="_7yG4875MEe2VhOrwIKmwbA" presentationName="Wine List" briefDescription="This artifact describes a list of available wines. " isPlanned="false" superActivities="_5ZXf8b5MEe2VhOrwIKmwbA">
+      <methodElementProperty xmi:id="_7yG49L5MEe2VhOrwIKmwbA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_7yG4-b5MEe2VhOrwIKmwbA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_HqpJ0L4kEe28MODDylextw#_llNDoL4lEe28MODDylextw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_7yG49b5MEe2VhOrwIKmwbA" name="meal" guid="_7yG49b5MEe2VhOrwIKmwbA" presentationName="Meal" briefDescription="This artifact is a set of pre-determined food items." isPlanned="false" superActivities="_5ZXf8b5MEe2VhOrwIKmwbA">
+      <methodElementProperty xmi:id="_7yG49r5MEe2VhOrwIKmwbA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_7yG4-r5MEe2VhOrwIKmwbA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_5WphYL3DEe2LKs9kSIoQqg#_Gj6M4L3EEe2LKs9kSIoQqg"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_5ZXf8b5MEe2VhOrwIKmwbA" name="server_meal" guid="_5ZXf8b5MEe2VhOrwIKmwbA" presentationName="Sever Meal" breakdownElements="_7yG48L5MEe2VhOrwIKmwbA _7yG48b5MEe2VhOrwIKmwbA _7yG4875MEe2VhOrwIKmwbA _7yG49b5MEe2VhOrwIKmwbA">
+      <presentation xmi:id="-BGj2hKdlyY8Jq50o4THy_Q" href="uma://-BGj2hKdlyY8Jq50o4THy_Q#-BGj2hKdlyY8Jq50o4THy_Q"/>
+      <defaultContext href="uma://_2qjHgL3DEe2LKs9kSIoQqg#_X5HTQL3GEe2LKs9kSIoQqg"/>
+      <validContext href="uma://_2qjHgL3DEe2LKs9kSIoQqg#_X5HTQL3GEe2LKs9kSIoQqg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

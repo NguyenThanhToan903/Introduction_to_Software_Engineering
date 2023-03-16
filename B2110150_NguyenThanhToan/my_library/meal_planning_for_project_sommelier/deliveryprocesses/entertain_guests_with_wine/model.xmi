@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_8ocSwL5GEe2h4rpimgIENg" guid="_8ocSwL5GEe2h4rpimgIENg">
+    <resourceDescriptors xmi:id="_8ocSwb5GEe2h4rpimgIENg" id="-CF6AbhVjMqqJJFkx72F2DQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_8hrjcL5GEe2h4rpimgIENg" name="entertain_guests_with_wine" guid="_8hrjcL5GEe2h4rpimgIENg">
+    <methodElementProperty xmi:id="_8humwL5GEe2h4rpimgIENg" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_A0s30L5HEe2h4rpimgIENg" name="me_edited" value="true"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_XJCckL5HEe2h4rpimgIENg" name="host_meal_with_wine" guid="_XJCckL5HEe2h4rpimgIENg">
+      <processElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_XJDDoL5HEe2h4rpimgIENg" name="host_meal_with_wine" guid="_XJDDoL5HEe2h4rpimgIENg" superActivities="_8hrjcb5GEe2h4rpimgIENg" variabilityType="extends">
+        <methodElementProperty xmi:id="_5GARUb5HEe2h4rpimgIENg" name="wbe_GlobalPresentedAfter" value="_te1Z4b5HEe2h4rpimgIENg"/>
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_6NOeQL4qEe2Ssd3NnLr77A#_6NOeQb4qEe2Ssd3NnLr77A"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_te1Z4L5HEe2h4rpimgIENg" name="go_sightseeeing" guid="_te1Z4L5HEe2h4rpimgIENg">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_te1Z4b5HEe2h4rpimgIENg" name="go_sightseeeing" guid="_te1Z4b5HEe2h4rpimgIENg" presentationName="Go sightseeing" superActivities="_8hrjcb5GEe2h4rpimgIENg">
+        <methodElementProperty xmi:id="_5GARUL5HEe2h4rpimgIENg" name="wbe_GlobalPresentedAfter" value="_8hrjcb5GEe2h4rpimgIENg"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_8hrjcb5GEe2h4rpimgIENg" name="entertain_guests_with_wine" guid="_8hrjcb5GEe2h4rpimgIENg" presentationName="Entertain Guests with Wine" breakdownElements="_te1Z4b5HEe2h4rpimgIENg _XJDDoL5HEe2h4rpimgIENg">
+      <presentation xmi:id="-CF6AbhVjMqqJJFkx72F2DQ" href="uma://-CF6AbhVjMqqJJFkx72F2DQ#-CF6AbhVjMqqJJFkx72F2DQ"/>
+      <includesPatterns href="uma://_6NOeQL4qEe2Ssd3NnLr77A#_6NOeQb4qEe2Ssd3NnLr77A"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

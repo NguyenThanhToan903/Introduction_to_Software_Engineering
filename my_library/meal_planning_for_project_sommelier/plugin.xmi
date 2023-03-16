@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_o3b3kLjOEe2dts-2MxTu2Q" guid="_o3b3kLjOEe2dts-2MxTu2Q">
+    <resourceDescriptors xmi:id="_rQ1sALjbEe2VwcxlF2Wv2A" id="-VyMITbh00F-cILTMq3Ihlg" uri="tasks/recommend_wines.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_o3Vw8LjOEe2dts-2MxTu2Q" name="meal_planning_for_project_sommelier" guid="_o3Vw8LjOEe2dts-2MxTu2Q" briefDescription="This plug-in extends the meal_plnning plug-in&#xD;&#xA;to include Project Sommelier content.">
+    <methodElementProperty xmi:id="_o3ceoLjOEe2dts-2MxTu2Q" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_o3Vw8bjOEe2dts-2MxTu2Q" name="Content" guid="_o3Vw8bjOEe2dts-2MxTu2Q">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_o3Vw8rjOEe2dts-2MxTu2Q" name="Categories" guid="_o3Vw8rjOEe2dts-2MxTu2Q">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_o3Vw87jOEe2dts-2MxTu2Q" name="Domains" guid="_o3Vw87jOEe2dts-2MxTu2Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_o3Vw9LjOEe2dts-2MxTu2Q" name="Disciplines" guid="_o3Vw9LjOEe2dts-2MxTu2Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_o3Vw9bjOEe2dts-2MxTu2Q" name="RoleSets" guid="_o3Vw9bjOEe2dts-2MxTu2Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_o3Vw9rjOEe2dts-2MxTu2Q" name="WP Types" guid="_o3Vw9rjOEe2dts-2MxTu2Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_o3Vw97jOEe2dts-2MxTu2Q" name="Tools" guid="_o3Vw97jOEe2dts-2MxTu2Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_o3Vw-LjOEe2dts-2MxTu2Q" name="StandardCategories" guid="_o3Vw-LjOEe2dts-2MxTu2Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_o3Vw-bjOEe2dts-2MxTu2Q" name="CustomCategories" guid="_o3Vw-bjOEe2dts-2MxTu2Q">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_o3Vw-rjOEe2dts-2MxTu2Q" name="Hidden" guid="_o3Vw-rjOEe2dts-2MxTu2Q">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_o3Vw-7jOEe2dts-2MxTu2Q" name="Custom Categories" guid="_o3Vw-7jOEe2dts-2MxTu2Q"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_o3Vw_LjOEe2dts-2MxTu2Q" name="CoreContent" guid="_o3Vw_LjOEe2dts-2MxTu2Q">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rhzMELjOEe2dts-2MxTu2Q" name="meal_planning_for_project_sommelier" guid="_rhzMELjOEe2dts-2MxTu2Q" presentationName="Meal Planning for Project Sommelier">
+          <methodElementProperty xmi:id="_rh2PYLjOEe2dts-2MxTu2Q" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_u9hFALjOEe2dts-2MxTu2Q" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_1SEMQLjOEe2dts-2MxTu2Q" name="server.sommelier" guid="_1SEMQLjOEe2dts-2MxTu2Q" briefDescription="This role will&#xD;&#xA;also act as the Sommelier or wine expert. He/She will provide the wine&#xD;&#xA;list, and recommend wines to go with the meal." variabilityType="contributes" responsibleFor="_dJZtsLjPEe2dts-2MxTu2Q">
+            <methodElementProperty xmi:id="_4TqVALjOEe2dts-2MxTu2Q" name="me_edited" value="true"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_XUfCYLjHEe2dts-2MxTu2Q#_-zq3oLjJEe2dts-2MxTu2Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_dJZtsLjPEe2dts-2MxTu2Q" name="wine_list" guid="_dJZtsLjPEe2dts-2MxTu2Q" presentationName="Wine List" briefDescription="This artifact describes a list of available wines. ">
+            <methodElementProperty xmi:id="_elYjgLjPEe2dts-2MxTu2Q" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_JRBjILjREe2dts-2MxTu2Q" name="recommend_wines" guid="_JRBjILjREe2dts-2MxTu2Q" presentationName="Recommend_wines" performedBy="_1SEMQLjOEe2dts-2MxTu2Q" output="_dJZtsLjPEe2dts-2MxTu2Q">
+            <methodElementProperty xmi:id="_bNJxgLjREe2dts-2MxTu2Q" name="me_edited" value="true"/>
+            <presentation xmi:id="-VyMITbh00F-cILTMq3Ihlg" href="uma://-VyMITbh00F-cILTMq3Ihlg#-VyMITbh00F-cILTMq3Ihlg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_l16DcLjSEe2dts-2MxTu2Q" name="serve_meal.sommelier" guid="_l16DcLjSEe2dts-2MxTu2Q" variabilityType="contributes" output="_dJZtsLjPEe2dts-2MxTu2Q">
+            <methodElementProperty xmi:id="_rEC8QLjSEe2dts-2MxTu2Q" name="me_edited" value="true"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_XUfCYLjHEe2dts-2MxTu2Q#_Ew7gQLjKEe2dts-2MxTu2Q"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_o3Vw_bjOEe2dts-2MxTu2Q" name="CapabilityPatterns" guid="_o3Vw_bjOEe2dts-2MxTu2Q"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_o3Vw_rjOEe2dts-2MxTu2Q" name="DeliveryProcesses" guid="_o3Vw_rjOEe2dts-2MxTu2Q"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_o3Vw_7jOEe2dts-2MxTu2Q" name="ProcessContributions" guid="_o3Vw_7jOEe2dts-2MxTu2Q"/>
+    <bases href="uma://_XUfCYLjHEe2dts-2MxTu2Q#_XUfCYLjHEe2dts-2MxTu2Q"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

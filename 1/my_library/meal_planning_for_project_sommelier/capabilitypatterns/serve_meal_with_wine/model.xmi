@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_NIjEYMI_Ee2-yuQwcTQebA" guid="_NIjEYMI_Ee2-yuQwcTQebA">
+    <resourceDescriptors xmi:id="_NIjEYcI_Ee2-yuQwcTQebA" id="-1sUdAKt902Dh1CuzLNTyJQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_NHBaYMI_Ee2-yuQwcTQebA" name="serve_meal_with_wine" guid="_NHBaYMI_Ee2-yuQwcTQebA">
+    <methodElementProperty xmi:id="_NHBaYsI_Ee2-yuQwcTQebA" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_QtP6MMI_Ee2-yuQwcTQebA" name="me_edited" value="true"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_mHpmQMI_Ee2-yuQwcTQebA" name="recommend_wines" guid="_mHpmQMI_Ee2-yuQwcTQebA" presentationName="Recommend Wines" superActivities="_NHBaYcI_Ee2-yuQwcTQebA" output="_mHq0YMI_Ee2-yuQwcTQebA" performedPrimarilyBy="_mHqNUMI_Ee2-yuQwcTQebA">
+      <methodElementProperty xmi:id="_mHrbcMI_Ee2-yuQwcTQebA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_HqpJ0L4kEe28MODDylextw#_0pOccL4lEe28MODDylextw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_mHqNUMI_Ee2-yuQwcTQebA" name="server" guid="_mHqNUMI_Ee2-yuQwcTQebA" presentationName="Server" briefDescription="This role understands the techniques for serving a &#xD;&#xA;meal to a patron.&lt;p/>This role will &#xD;&#xA;also act as the Sommelier or wine expert. He/She will provide the wine &#xD;&#xA;list, and recommend wines to go with the meal." isPlanned="false" superActivities="_NHBaYcI_Ee2-yuQwcTQebA" modifies="_mHq0YMI_Ee2-yuQwcTQebA _ufO8QcI_Ee2-yuQwcTQebA" responsibleFor="_mHq0YMI_Ee2-yuQwcTQebA">
+      <methodElementProperty xmi:id="_mHqNUcI_Ee2-yuQwcTQebA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_mH1McMI_Ee2-yuQwcTQebA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Role href="uma://_5WphYL3DEe2LKs9kSIoQqg#_BZDcIL3FEe2LKs9kSIoQqg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_mHq0YMI_Ee2-yuQwcTQebA" name="wine_list" guid="_mHq0YMI_Ee2-yuQwcTQebA" presentationName="Wine List" briefDescription="This artifact describes a list of available wines. " isPlanned="false" superActivities="_NHBaYcI_Ee2-yuQwcTQebA">
+      <methodElementProperty xmi:id="_mHq0YcI_Ee2-yuQwcTQebA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_mHrbccI_Ee2-yuQwcTQebA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_HqpJ0L4kEe28MODDylextw#_llNDoL4lEe28MODDylextw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_ufO8QMI_Ee2-yuQwcTQebA" name="server_meal" guid="_ufO8QMI_Ee2-yuQwcTQebA" presentationName="Server Meal" superActivities="_NHBaYcI_Ee2-yuQwcTQebA" optionalInput="_mHq0YMI_Ee2-yuQwcTQebA" output="_ufO8QcI_Ee2-yuQwcTQebA" performedPrimarilyBy="_mHqNUMI_Ee2-yuQwcTQebA">
+      <methodElementProperty xmi:id="_ufh3MMI_Ee2-yuQwcTQebA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_5WphYL3DEe2LKs9kSIoQqg#_PV2HIL3FEe2LKs9kSIoQqg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ufO8QcI_Ee2-yuQwcTQebA" name="meal" guid="_ufO8QcI_Ee2-yuQwcTQebA" presentationName="Meal" briefDescription="This artifact is a set of pre-determined food items." isPlanned="false" superActivities="_NHBaYcI_Ee2-yuQwcTQebA">
+      <methodElementProperty xmi:id="_ufO8QsI_Ee2-yuQwcTQebA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_ufroMMI_Ee2-yuQwcTQebA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_5WphYL3DEe2LKs9kSIoQqg#_Gj6M4L3EEe2LKs9kSIoQqg"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_NHBaYcI_Ee2-yuQwcTQebA" name="serve_meal_with_wine" guid="_NHBaYcI_Ee2-yuQwcTQebA" presentationName="Serve Meal with Wine" briefDescription="This pattern extends the original Serve Meal Pattern &#xD;&#xA;with the sommelier elements (new task and work product). " breakdownElements="_mHpmQMI_Ee2-yuQwcTQebA _mHqNUMI_Ee2-yuQwcTQebA _mHq0YMI_Ee2-yuQwcTQebA _ufO8QMI_Ee2-yuQwcTQebA _ufO8QcI_Ee2-yuQwcTQebA">
+      <presentation xmi:id="-1sUdAKt902Dh1CuzLNTyJQ" href="uma://-1sUdAKt902Dh1CuzLNTyJQ#-1sUdAKt902Dh1CuzLNTyJQ"/>
+      <defaultContext href="uma://_2qjHgL3DEe2LKs9kSIoQqg#_Zf6QUL4mEe28MODDylextw"/>
+      <validContext href="uma://_2qjHgL3DEe2LKs9kSIoQqg#_Zf6QUL4mEe28MODDylextw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_2qjHgb3DEe2LKs9kSIoQqg" guid="_2qjHgb3DEe2LKs9kSIoQqg">
+    <subManagers xmi:id="_5Wr9ob3DEe2LKs9kSIoQqg" href="uma://_5WphYL3DEe2LKs9kSIoQqg#_5Wr9ob3DEe2LKs9kSIoQqg"/>
+    <subManagers xmi:id="_HrEAkL4kEe28MODDylextw" href="uma://_HqpJ0L4kEe28MODDylextw#_HrEAkL4kEe28MODDylextw"/>
+    <resourceDescriptors xmi:id="_2qjHgr3DEe2LKs9kSIoQqg" id="_2qjHgL3DEe2LKs9kSIoQqg" uri=""/>
+    <resourceDescriptors xmi:id="_5Wr9or3DEe2LKs9kSIoQqg" id="_5WphYL3DEe2LKs9kSIoQqg" uri="meal_planning/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_HrEAkb4kEe28MODDylextw" id="_HqpJ0L4kEe28MODDylextw" uri="meal_planning_for_project_sommelier/plugin.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodLibrary xmi:id="_2qjHgL3DEe2LKs9kSIoQqg" name="my_library" guid="_2qjHgL3DEe2LKs9kSIoQqg">
+    <methodElementProperty xmi:id="_2r9cwL3DEe2LKs9kSIoQqg" name="library_synFree" value="true"/>
+    <methodPlugins xmi:id="_5WphYL3DEe2LKs9kSIoQqg" href="uma://_5WphYL3DEe2LKs9kSIoQqg#_5WphYL3DEe2LKs9kSIoQqg"/>
+    <methodPlugins xmi:id="_HqpJ0L4kEe28MODDylextw" href="uma://_HqpJ0L4kEe28MODDylextw#_HqpJ0L4kEe28MODDylextw"/>
+  </org.eclipse.epf.uma:MethodLibrary>
+</xmi:XMI>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_SPAN8LjVEe27htaXTmHK0g" guid="_SPAN8LjVEe27htaXTmHK0g">
+    <resourceDescriptors xmi:id="_SPAN8bjVEe27htaXTmHK0g" id="-_ZHi8bu2prPs_HFgs96kog" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_SOoagLjVEe27htaXTmHK0g" name="plan_meal" guid="_SOoagLjVEe27htaXTmHK0g">
+    <methodElementProperty xmi:id="_SOoagrjVEe27htaXTmHK0g" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_jrHfgLjVEe27htaXTmHK0g" name="me_edited" value="true"/>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_sewfYLjVEe27htaXTmHK0g" name="chef" guid="_sewfYLjVEe27htaXTmHK0g" presentationName="Chef" briefDescription=" This role is skilled in preparing meals." isPlanned="false" superActivities="_SOoagbjVEe27htaXTmHK0g" modifies="_sexGcLjVEe27htaXTmHK0g" responsibleFor="_sexGcLjVEe27htaXTmHK0g _sewfYrjVEe27htaXTmHK0g">
+      <methodElementProperty xmi:id="_sewfYbjVEe27htaXTmHK0g" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_se_I4LjVEe27htaXTmHK0g" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Role href="uma://_jnwK0LjHEe27htaXTmHK0g#_TByosLjIEe27htaXTmHK0g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_sewfYrjVEe27htaXTmHK0g" name="recipe" guid="_sewfYrjVEe27htaXTmHK0g" presentationName="Recipe" briefDescription="This artifact describes the ingredients needed to prepare a dish." isPlanned="false" superActivities="_SOoagbjVEe27htaXTmHK0g">
+      <methodElementProperty xmi:id="_sewfY7jVEe27htaXTmHK0g" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_se-h0LjVEe27htaXTmHK0g" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_jnwK0LjHEe27htaXTmHK0g#_CjiGgLjIEe27htaXTmHK0g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_sexGcLjVEe27htaXTmHK0g" name="meal" guid="_sexGcLjVEe27htaXTmHK0g" presentationName="Meal" briefDescription="This artifact is a set of pre-determined food items." isPlanned="false" superActivities="_SOoagbjVEe27htaXTmHK0g">
+      <methodElementProperty xmi:id="_sexGcbjVEe27htaXTmHK0g" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_se96wLjVEe27htaXTmHK0g" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_jnwK0LjHEe27htaXTmHK0g#_42pKcLjHEe27htaXTmHK0g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_uMqLoLjVEe27htaXTmHK0g" name="invite_guest" guid="_uMqLoLjVEe27htaXTmHK0g" presentationName="Invite Guest" superActivities="_SOoagbjVEe27htaXTmHK0g">
+      <methodElementProperty xmi:id="_uMyugLjVEe27htaXTmHK0g" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_jnwK0LjHEe27htaXTmHK0g#_xjn84LjUEe27htaXTmHK0g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_uuY_sLjVEe27htaXTmHK0g" name="make_menu" guid="_uuY_sLjVEe27htaXTmHK0g" presentationName="Make Menu" superActivities="_SOoagbjVEe27htaXTmHK0g">
+      <methodElementProperty xmi:id="_uuiJoLjVEe27htaXTmHK0g" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_jnwK0LjHEe27htaXTmHK0g#_orYw4LjUEe27htaXTmHK0g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_u8Ak8LjVEe27htaXTmHK0g" name="plan_meal" guid="_u8Ak8LjVEe27htaXTmHK0g" presentationName="Plan Meal" superActivities="_SOoagbjVEe27htaXTmHK0g" output="_sexGcLjVEe27htaXTmHK0g" performedPrimarilyBy="_sewfYLjVEe27htaXTmHK0g">
+      <methodElementProperty xmi:id="_u8IgwLjVEe27htaXTmHK0g" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_jnwK0LjHEe27htaXTmHK0g#_bX790LjUEe27htaXTmHK0g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_wodfsLjVEe27htaXTmHK0g" name="shop_for_food" guid="_wodfsLjVEe27htaXTmHK0g" presentationName="Shop for Food" superActivities="_SOoagbjVEe27htaXTmHK0g">
+      <methodElementProperty xmi:id="_wolbgLjVEe27htaXTmHK0g" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_jnwK0LjHEe27htaXTmHK0g#_liBMMLjUEe27htaXTmHK0g"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_SOoagbjVEe27htaXTmHK0g" name="plan_meal" guid="_SOoagbjVEe27htaXTmHK0g" presentationName="Plan Meal" breakdownElements="_u8Ak8LjVEe27htaXTmHK0g _uuY_sLjVEe27htaXTmHK0g _uMqLoLjVEe27htaXTmHK0g _wodfsLjVEe27htaXTmHK0g _sewfYLjVEe27htaXTmHK0g _sewfYrjVEe27htaXTmHK0g _sexGcLjVEe27htaXTmHK0g">
+      <presentation xmi:id="-_ZHi8bu2prPs_HFgs96kog" href="uma://-_ZHi8bu2prPs_HFgs96kog#-_ZHi8bu2prPs_HFgs96kog"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

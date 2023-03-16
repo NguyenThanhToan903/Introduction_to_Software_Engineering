@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_iwpJYLjXEe27htaXTmHK0g" guid="_iwpJYLjXEe27htaXTmHK0g">
+    <resourceDescriptors xmi:id="_iwpJYbjXEe27htaXTmHK0g" id="-9Z34sCEKRDawtRX-L5GTbw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_iwSkELjXEe27htaXTmHK0g" name="entertain_guests" guid="_iwSkELjXEe27htaXTmHK0g">
+    <methodElementProperty xmi:id="_iwSkErjXEe27htaXTmHK0g" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_lizvALjXEe27htaXTmHK0g" name="me_edited" value="true"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_pHNC0LjXEe27htaXTmHK0g" name="go_sightseeeing" guid="_pHNC0LjXEe27htaXTmHK0g">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_pHNC0bjXEe27htaXTmHK0g" name="go_sightseeeing" guid="_pHNC0bjXEe27htaXTmHK0g" presentationName="Go sightseeing" superActivities="_iwSkEbjXEe27htaXTmHK0g"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_SA4yELjYEe27htaXTmHK0g" name="Host a Meal" guid="_SA4yELjYEe27htaXTmHK0g">
+      <processElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_SA5ZILjYEe27htaXTmHK0g" name="Host a Meal" guid="_SA5ZILjYEe27htaXTmHK0g" superActivities="_iwSkEbjXEe27htaXTmHK0g" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_zqAvsLjWEe27htaXTmHK0g#_zqAvsbjWEe27htaXTmHK0g"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_iwSkEbjXEe27htaXTmHK0g" name="entertain_guests" guid="_iwSkEbjXEe27htaXTmHK0g" presentationName="Entertain Guest" breakdownElements="_pHNC0bjXEe27htaXTmHK0g _SA5ZILjYEe27htaXTmHK0g">
+      <presentation xmi:id="-9Z34sCEKRDawtRX-L5GTbw" href="uma://-9Z34sCEKRDawtRX-L5GTbw#-9Z34sCEKRDawtRX-L5GTbw"/>
+      <includesPatterns href="uma://_zqAvsLjWEe27htaXTmHK0g#_zqAvsbjWEe27htaXTmHK0g"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

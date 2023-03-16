@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_6OK5cb4qEe2Ssd3NnLr77A" guid="_6OK5cb4qEe2Ssd3NnLr77A">
+    <resourceDescriptors xmi:id="_6OK5cr4qEe2Ssd3NnLr77A" id="-WusUqo2zLUsDNbfrt8Njmg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_6NOeQL4qEe2Ssd3NnLr77A" name="host_meal_with_wine" guid="_6NOeQL4qEe2Ssd3NnLr77A">
+    <methodElementProperty xmi:id="_6NOeQr4qEe2Ssd3NnLr77A" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_8Ls9IL4qEe2Ssd3NnLr77A" name="me_edited" value="true"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_lZD2UL4rEe24JsFP41V5Ew" name="clean_up" guid="_lZD2UL4rEe24JsFP41V5Ew">
+      <processElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_lZD2Ub4rEe24JsFP41V5Ew" name="clean_up" guid="_lZD2Ub4rEe24JsFP41V5Ew" superActivities="_6NOeQb4qEe2Ssd3NnLr77A" variabilityType="extends">
+        <methodElementProperty xmi:id="_-ZIX0r5HEe2h4rpimgIENg" name="wbe_GlobalPresentedAfter" value="_n6JTAb4rEe24JsFP41V5Ew"/>
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_gu-CALjWEe27htaXTmHK0g#_gu-CAbjWEe27htaXTmHK0g"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_mHRAIL4rEe24JsFP41V5Ew" name="plan_meal" guid="_mHRAIL4rEe24JsFP41V5Ew">
+      <processElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_mHRAIb4rEe24JsFP41V5Ew" name="plan_meal" guid="_mHRAIb4rEe24JsFP41V5Ew" superActivities="_6NOeQb4qEe2Ssd3NnLr77A" variabilityType="extends">
+        <methodElementProperty xmi:id="_-ZIX0L5HEe2h4rpimgIENg" name="wbe_GlobalPresentedAfter" value="_6NOeQb4qEe2Ssd3NnLr77A"/>
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_SOoagLjVEe27htaXTmHK0g#_SOoagbjVEe27htaXTmHK0g"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_m1k3oL4rEe24JsFP41V5Ew" name="prepare_meal" guid="_m1k3oL4rEe24JsFP41V5Ew">
+      <processElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_m1k3ob4rEe24JsFP41V5Ew" name="prepare_meal" guid="_m1k3ob4rEe24JsFP41V5Ew" superActivities="_6NOeQb4qEe2Ssd3NnLr77A" variabilityType="extends">
+        <methodElementProperty xmi:id="_-ZIX0b5HEe2h4rpimgIENg" name="wbe_GlobalPresentedAfter" value="_mHRAIb4rEe24JsFP41V5Ew"/>
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_W5Nd0LjWEe27htaXTmHK0g#_W5Nd0bjWEe27htaXTmHK0g"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_n6JTAL4rEe24JsFP41V5Ew" name="serve_meal_with_wine" guid="_n6JTAL4rEe24JsFP41V5Ew">
+      <processElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_n6JTAb4rEe24JsFP41V5Ew" name="serve_meal_with_wine" guid="_n6JTAb4rEe24JsFP41V5Ew" superActivities="_6NOeQb4qEe2Ssd3NnLr77A" variabilityType="extends">
+        <methodElementProperty xmi:id="_-z6PUL5HEe2h4rpimgIENg" name="wbe_GlobalPresentedAfter" value="_m1k3ob4rEe24JsFP41V5Ew"/>
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_pc9mEL4qEe2Ssd3NnLr77A#_pc9mEb4qEe2Ssd3NnLr77A"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_6NOeQb4qEe2Ssd3NnLr77A" name="host_meal_with_wine" guid="_6NOeQb4qEe2Ssd3NnLr77A" presentationName="Host Meal with Wine" breakdownElements="_mHRAIb4rEe24JsFP41V5Ew _m1k3ob4rEe24JsFP41V5Ew _n6JTAb4rEe24JsFP41V5Ew _lZD2Ub4rEe24JsFP41V5Ew">
+      <presentation xmi:id="-WusUqo2zLUsDNbfrt8Njmg" href="uma://-WusUqo2zLUsDNbfrt8Njmg#-WusUqo2zLUsDNbfrt8Njmg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

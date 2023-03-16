@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_jnynELjHEe27htaXTmHK0g" guid="_jnynELjHEe27htaXTmHK0g">
+    <subManagers xmi:id="_SPAN8LjVEe27htaXTmHK0g" href="uma://_SOoagLjVEe27htaXTmHK0g#_SPAN8LjVEe27htaXTmHK0g"/>
+    <subManagers xmi:id="_W5iN8LjWEe27htaXTmHK0g" href="uma://_W5Nd0LjWEe27htaXTmHK0g#_W5iN8LjWEe27htaXTmHK0g"/>
+    <subManagers xmi:id="_fVj_ELjWEe27htaXTmHK0g" href="uma://_fVPO8LjWEe27htaXTmHK0g#_fVj_ELjWEe27htaXTmHK0g"/>
+    <subManagers xmi:id="_gvWcgLjWEe27htaXTmHK0g" href="uma://_gu-CALjWEe27htaXTmHK0g#_gvWcgLjWEe27htaXTmHK0g"/>
+    <subManagers xmi:id="_zqYjILjWEe27htaXTmHK0g" href="uma://_zqAvsLjWEe27htaXTmHK0g#_zqYjILjWEe27htaXTmHK0g"/>
+    <subManagers xmi:id="_iwpJYLjXEe27htaXTmHK0g" href="uma://_iwSkELjXEe27htaXTmHK0g#_iwpJYLjXEe27htaXTmHK0g"/>
+    <resourceDescriptors xmi:id="_SO-_0LjVEe27htaXTmHK0g" id="_SOoagLjVEe27htaXTmHK0g" uri="capabilitypatterns/plan_meal/model.xmi"/>
+    <resourceDescriptors xmi:id="_W5hm4LjWEe27htaXTmHK0g" id="_W5Nd0LjWEe27htaXTmHK0g" uri="capabilitypatterns/prepare_meal/model.xmi"/>
+    <resourceDescriptors xmi:id="_fVjYALjWEe27htaXTmHK0g" id="_fVPO8LjWEe27htaXTmHK0g" uri="capabilitypatterns/serve_meal/model.xmi"/>
+    <resourceDescriptors xmi:id="_gvV1cLjWEe27htaXTmHK0g" id="_gu-CALjWEe27htaXTmHK0g" uri="capabilitypatterns/clean_up/model.xmi"/>
+    <resourceDescriptors xmi:id="_zqX8ELjWEe27htaXTmHK0g" id="_zqAvsLjWEe27htaXTmHK0g" uri="capabilitypatterns/host_a_meal/model.xmi"/>
+    <resourceDescriptors xmi:id="_iwoiULjXEe27htaXTmHK0g" id="_iwSkELjXEe27htaXTmHK0g" uri="deliveryprocesses/entertain_guests/model.xmi"/>
+    <resourceDescriptors xmi:id="_BFdeYb5MEe2h4rpimgIENg" id="-41OHxLyMKKIx3SrV14rGMw" uri="tasks/serve_meal.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_jnwK0LjHEe27htaXTmHK0g" name="meal_planning" guid="_jnwK0LjHEe27htaXTmHK0g" briefDescription="This plug-in will contain our method content elements and their relationships to each other." authors="Nguyễn Thanh Toàn" changeDate="2023-03-16T10:54:43.110+0700">
+    <methodElementProperty xmi:id="_jnynErjHEe27htaXTmHK0g" name="plugin_synFree" value="true"/>
+    <methodElementProperty xmi:id="_R_MMcMOuEe2cUIC3xfvOzw" name="me_edited" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_jnwK0bjHEe27htaXTmHK0g" name="Content" guid="_jnwK0bjHEe27htaXTmHK0g">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_jnwK0rjHEe27htaXTmHK0g" name="Categories" guid="_jnwK0rjHEe27htaXTmHK0g">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_jnwK07jHEe27htaXTmHK0g" name="Domains" guid="_jnwK07jHEe27htaXTmHK0g">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_N0o4QLjREe27htaXTmHK0g" name="meal_support" guid="_N0o4QLjREe27htaXTmHK0g" presentationName="Meal Support" briefDescription="These are the work products associated with the preparing and serving of a meal." workProducts="_42pKcLjHEe27htaXTmHK0g _CjiGgLjIEe27htaXTmHK0g">
+            <methodElementProperty xmi:id="_YPcqQLjREe27htaXTmHK0g" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_jnwK1LjHEe27htaXTmHK0g" name="Disciplines" guid="_jnwK1LjHEe27htaXTmHK0g">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_bzkRQLjREe27htaXTmHK0g" name="meal_support" guid="_bzkRQLjREe27htaXTmHK0g" presentationName="Meal Support" briefDescription="These are the tasks associated with the preparing and serving of a meal." tasks="_14x1sLjIEe27htaXTmHK0g _poJ8ILjJEe27htaXTmHK0g _zmFj4LjUEe27htaXTmHK0g _xjn84LjUEe27htaXTmHK0g _orYw4LjUEe27htaXTmHK0g _bX790LjUEe27htaXTmHK0g _liBMMLjUEe27htaXTmHK0g">
+            <methodElementProperty xmi:id="_dlF5QLjREe27htaXTmHK0g" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_jnwK1bjHEe27htaXTmHK0g" name="RoleSets" guid="_jnwK1bjHEe27htaXTmHK0g">
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_kXUbALjREe27htaXTmHK0g" name="meal_support_personnel" guid="_kXUbALjREe27htaXTmHK0g" presentationName="Meal Support Personnel" briefDescription="These are the roles associated with the preparing and serving of a meal." roles="_TByosLjIEe27htaXTmHK0g _kY3z0LjJEe27htaXTmHK0g">
+            <methodElementProperty xmi:id="_qJPWULjREe27htaXTmHK0g" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_jnwK1rjHEe27htaXTmHK0g" name="WP Types" guid="_jnwK1rjHEe27htaXTmHK0g"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_jnwK17jHEe27htaXTmHK0g" name="Tools" guid="_jnwK17jHEe27htaXTmHK0g"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_jnwK2LjHEe27htaXTmHK0g" name="StandardCategories" guid="_jnwK2LjHEe27htaXTmHK0g"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_jnwK2bjHEe27htaXTmHK0g" name="CustomCategories" guid="_jnwK2bjHEe27htaXTmHK0g">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_jnwK2rjHEe27htaXTmHK0g" name="Hidden" guid="_jnwK2rjHEe27htaXTmHK0g">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_jnwK27jHEe27htaXTmHK0g" name="Custom Categories" guid="_jnwK27jHEe27htaXTmHK0g" categorizedElements="_aMBBML5OEe2h4rpimgIENg"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_aMBBML5OEe2h4rpimgIENg" name="meal_planning_nav_views" guid="_aMBBML5OEe2h4rpimgIENg" presentationName="Meal Planning Navigation Views" categorizedElements="_j7eJEL5OEe2h4rpimgIENg">
+            <methodElementProperty xmi:id="_cfdqgL5OEe2h4rpimgIENg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_j7eJEL5OEe2h4rpimgIENg" name="meal_planning_home_view" guid="_j7eJEL5OEe2h4rpimgIENg" presentationName="Meal Planning" briefDescription="This navigation view contains the Meal Planning elements, organized by element type. It provides quick access to the Meal Planning Elements.">
+            <methodElementProperty xmi:id="_mYQ7oL5OEe2h4rpimgIENg" name="me_edited" value="true"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_iwSkELjXEe27htaXTmHK0g#_iwSkEbjXEe27htaXTmHK0g"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Discipline" href="#_bzkRQLjREe27htaXTmHK0g"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Domain" href="#_N0o4QLjREe27htaXTmHK0g"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:RoleSet" href="#_kXUbALjREe27htaXTmHK0g"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_AlA8YL5PEe2h4rpimgIENg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_AlA8YL5PEe2h4rpimgIENg" name="meal_planning_guidance" guid="_AlA8YL5PEe2h4rpimgIENg" presentationName="Guidance" categorizedElements="_MXyZYLjJEe27htaXTmHK0g _1_eeILjJEe27htaXTmHK0g">
+            <methodElementProperty xmi:id="_DJymQL5PEe2h4rpimgIENg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_jnwK3LjHEe27htaXTmHK0g" name="CoreContent" guid="_jnwK3LjHEe27htaXTmHK0g">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qUz4sLjHEe27htaXTmHK0g" name="Meal Planning" guid="_qUz4sLjHEe27htaXTmHK0g">
+          <methodElementProperty xmi:id="_qUz4sbjHEe27htaXTmHK0g" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_zFPMgLjHEe27htaXTmHK0g" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_42pKcLjHEe27htaXTmHK0g" name="meal" guid="_42pKcLjHEe27htaXTmHK0g" presentationName="Meal" briefDescription="This artifact is a set of pre-determined food items.">
+            <methodElementProperty xmi:id="_-tLgALjHEe27htaXTmHK0g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_CjiGgLjIEe27htaXTmHK0g" name="recipe" guid="_CjiGgLjIEe27htaXTmHK0g" presentationName="Recipe" briefDescription="This artifact describes the ingredients needed to prepare a dish.">
+            <methodElementProperty xmi:id="_HwVikLjIEe27htaXTmHK0g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_TByosLjIEe27htaXTmHK0g" name="chef" guid="_TByosLjIEe27htaXTmHK0g" presentationName="Chef" briefDescription=" This role is skilled in preparing meals." responsibleFor="_42pKcLjHEe27htaXTmHK0g _CjiGgLjIEe27htaXTmHK0g">
+            <methodElementProperty xmi:id="_YvsmsLjIEe27htaXTmHK0g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_14x1sLjIEe27htaXTmHK0g" name="prepare_meal" guid="_14x1sLjIEe27htaXTmHK0g" presentationName="Prepare Meal" briefDescription="This task prepares a meal." guidelines="_MXyZYLjJEe27htaXTmHK0g" performedBy="_TByosLjIEe27htaXTmHK0g" mandatoryInput="_CjiGgLjIEe27htaXTmHK0g" output="_42pKcLjHEe27htaXTmHK0g">
+            <methodElementProperty xmi:id="_8x5poLjIEe27htaXTmHK0g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_MXyZYLjJEe27htaXTmHK0g" name="meal_preparation_tips" guid="_MXyZYLjJEe27htaXTmHK0g" presentationName="Meal Preparation Tips" briefDescription="This guideline provides tips and techniques for preparing meals.">
+            <methodElementProperty xmi:id="_WhLEMLjJEe27htaXTmHK0g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_kY3z0LjJEe27htaXTmHK0g" name="server" guid="_kY3z0LjJEe27htaXTmHK0g" presentationName="Server" briefDescription="This role understands the techniques for serving a meal to a patron.">
+            <methodElementProperty xmi:id="_mSH0cLjJEe27htaXTmHK0g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_poJ8ILjJEe27htaXTmHK0g" name="serve_meal" guid="_poJ8ILjJEe27htaXTmHK0g" presentationName="Serve Meal" guidelines="_1_eeILjJEe27htaXTmHK0g" performedBy="_kY3z0LjJEe27htaXTmHK0g" mandatoryInput="_42pKcLjHEe27htaXTmHK0g">
+            <methodElementProperty xmi:id="_sdM2oLjJEe27htaXTmHK0g" name="me_edited" value="true"/>
+            <presentation xmi:id="-41OHxLyMKKIx3SrV14rGMw" href="uma://-41OHxLyMKKIx3SrV14rGMw#-41OHxLyMKKIx3SrV14rGMw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_1_eeILjJEe27htaXTmHK0g" name="patron_etiquette" guid="_1_eeILjJEe27htaXTmHK0g" presentationName="Patron Etiquette">
+            <methodElementProperty xmi:id="_3buZsLjJEe27htaXTmHK0g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_bX790LjUEe27htaXTmHK0g" name="plan_meal" guid="_bX790LjUEe27htaXTmHK0g" presentationName="Plan Meal" performedBy="_TByosLjIEe27htaXTmHK0g" output="_CjiGgLjIEe27htaXTmHK0g">
+            <methodElementProperty xmi:id="_dVl9ULjUEe27htaXTmHK0g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_liBMMLjUEe27htaXTmHK0g" name="shop_for_food" guid="_liBMMLjUEe27htaXTmHK0g" presentationName="Shop for Food">
+            <methodElementProperty xmi:id="_nb9wYLjUEe27htaXTmHK0g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_orYw4LjUEe27htaXTmHK0g" name="make_menu" guid="_orYw4LjUEe27htaXTmHK0g" presentationName="Make Menu">
+            <methodElementProperty xmi:id="_xLdUgLjUEe27htaXTmHK0g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_xjn84LjUEe27htaXTmHK0g" name="invite_guest" guid="_xjn84LjUEe27htaXTmHK0g" presentationName="Invite Guest">
+            <methodElementProperty xmi:id="_zKt2gLjUEe27htaXTmHK0g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_zmFj4LjUEe27htaXTmHK0g" name="clean_up" guid="_zmFj4LjUEe27htaXTmHK0g" presentationName="Clean Up">
+            <methodElementProperty xmi:id="_1TlngLjUEe27htaXTmHK0g" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_jnwK3bjHEe27htaXTmHK0g" name="CapabilityPatterns" guid="_jnwK3bjHEe27htaXTmHK0g">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_N_ybgLjVEe27htaXTmHK0g" name="Meal Planning Patterns" guid="_N_ybgLjVEe27htaXTmHK0g">
+          <methodElementProperty xmi:id="_N_ybgbjVEe27htaXTmHK0g" name="pkg_loadCheck" value="true"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_SOoagLjVEe27htaXTmHK0g" href="uma://_SOoagLjVEe27htaXTmHK0g#_SOoagLjVEe27htaXTmHK0g"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_W5Nd0LjWEe27htaXTmHK0g" href="uma://_W5Nd0LjWEe27htaXTmHK0g#_W5Nd0LjWEe27htaXTmHK0g"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_fVPO8LjWEe27htaXTmHK0g" href="uma://_fVPO8LjWEe27htaXTmHK0g#_fVPO8LjWEe27htaXTmHK0g"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_gu-CALjWEe27htaXTmHK0g" href="uma://_gu-CALjWEe27htaXTmHK0g#_gu-CALjWEe27htaXTmHK0g"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_zqAvsLjWEe27htaXTmHK0g" href="uma://_zqAvsLjWEe27htaXTmHK0g#_zqAvsLjWEe27htaXTmHK0g"/>
+        </childPackages>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_jnwK3rjHEe27htaXTmHK0g" name="DeliveryProcesses" guid="_jnwK3rjHEe27htaXTmHK0g">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_iwSkELjXEe27htaXTmHK0g" href="uma://_iwSkELjXEe27htaXTmHK0g#_iwSkELjXEe27htaXTmHK0g"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_jnwK37jHEe27htaXTmHK0g" name="ProcessContributions" guid="_jnwK37jHEe27htaXTmHK0g"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

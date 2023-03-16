@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_Cr0KUcJAEe2-yuQwcTQebA" guid="_Cr0KUcJAEe2-yuQwcTQebA">
+    <resourceDescriptors xmi:id="_Cr0KUsJAEe2-yuQwcTQebA" id="-244SWOxMa_qdxCyt2C3tJg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_Cqq60MJAEe2-yuQwcTQebA" name="Host Meal with Wine" guid="_Cqq60MJAEe2-yuQwcTQebA">
+    <methodElementProperty xmi:id="_Cqq60sJAEe2-yuQwcTQebA" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_5Vu50MJBEe2-yuQwcTQebA" name="me_edited" value="true"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_kJu2JMJBEe2-yuQwcTQebA" name="plan_meal" guid="_kJu2JMJBEe2-yuQwcTQebA">
+      <processElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_kJu2JcJBEe2-yuQwcTQebA" name="plan_meal" guid="_kJu2JcJBEe2-yuQwcTQebA" superActivities="_Cqq60cJAEe2-yuQwcTQebA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_2fBrML5LEe2VhOrwIKmwbA#_2fBrMb5LEe2VhOrwIKmwbA"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_kJu2JsJBEe2-yuQwcTQebA" name="prepare_meal" guid="_kJu2JsJBEe2-yuQwcTQebA">
+      <processElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_kJu2J8JBEe2-yuQwcTQebA" name="prepare_meal" guid="_kJu2J8JBEe2-yuQwcTQebA" superActivities="_Cqq60cJAEe2-yuQwcTQebA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_0HwcYL5MEe2VhOrwIKmwbA#_0HwcYb5MEe2VhOrwIKmwbA"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_kJu2KMJBEe2-yuQwcTQebA" name="server_meal" guid="_kJu2KMJBEe2-yuQwcTQebA">
+      <processElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_kJu2KcJBEe2-yuQwcTQebA" name="server_meal" guid="_kJu2KcJBEe2-yuQwcTQebA" superActivities="_Cqq60cJAEe2-yuQwcTQebA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_5ZXf8L5MEe2VhOrwIKmwbA#_5ZXf8b5MEe2VhOrwIKmwbA"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_WrWwAMJCEe2-yuQwcTQebA" name="serve_meal_with_wine" guid="_WrWwAMJCEe2-yuQwcTQebA">
+      <processElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_WrWwAcJCEe2-yuQwcTQebA" name="serve_meal_with_wine" guid="_WrWwAcJCEe2-yuQwcTQebA" superActivities="_Cqq60cJAEe2-yuQwcTQebA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_NHBaYMI_Ee2-yuQwcTQebA#_NHBaYcI_Ee2-yuQwcTQebA"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_Cqq60cJAEe2-yuQwcTQebA" name="Host Meal with Wine" guid="_Cqq60cJAEe2-yuQwcTQebA" presentationName="Host Meal with Wine" breakdownElements="_kJu2JcJBEe2-yuQwcTQebA _kJu2J8JBEe2-yuQwcTQebA _kJu2KcJBEe2-yuQwcTQebA _WrWwAcJCEe2-yuQwcTQebA">
+      <presentation xmi:id="-244SWOxMa_qdxCyt2C3tJg" href="uma://-244SWOxMa_qdxCyt2C3tJg#-244SWOxMa_qdxCyt2C3tJg"/>
+      <defaultContext href="uma://_2qjHgL3DEe2LKs9kSIoQqg#_Zf6QUL4mEe28MODDylextw"/>
+      <validContext href="uma://_2qjHgL3DEe2LKs9kSIoQqg#_Zf6QUL4mEe28MODDylextw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

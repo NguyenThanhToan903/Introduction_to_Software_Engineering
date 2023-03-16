@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_E6Hw4L5OEe2VhOrwIKmwbA" guid="_E6Hw4L5OEe2VhOrwIKmwbA">
+    <resourceDescriptors xmi:id="_E6Hw4b5OEe2VhOrwIKmwbA" id="-PAWpU2t9IH7UfBUk5ouUQw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_E5k-UL5OEe2VhOrwIKmwbA" name="host_a_meal" guid="_E5k-UL5OEe2VhOrwIKmwbA">
+    <methodElementProperty xmi:id="_E5k-Ur5OEe2VhOrwIKmwbA" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_JpqpML5OEe2VhOrwIKmwbA" name="me_edited" value="true"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Y1sugL5OEe2VhOrwIKmwbA" name="plan_meal" guid="_Y1sugL5OEe2VhOrwIKmwbA">
+      <processElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_Y1sugb5OEe2VhOrwIKmwbA" name="plan_meal" guid="_Y1sugb5OEe2VhOrwIKmwbA" superActivities="_E5k-Ub5OEe2VhOrwIKmwbA" variabilityType="extends">
+        <methodElementProperty xmi:id="_2QweUL5OEe2VhOrwIKmwbA" name="wbe_GlobalPresentedAfter" value="_cWmCYb5OEe2VhOrwIKmwbA"/>
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_2fBrML5LEe2VhOrwIKmwbA#_2fBrMb5LEe2VhOrwIKmwbA"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_cWmCYL5OEe2VhOrwIKmwbA" name="clean_up" guid="_cWmCYL5OEe2VhOrwIKmwbA">
+      <processElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_cWmCYb5OEe2VhOrwIKmwbA" name="clean_up" guid="_cWmCYb5OEe2VhOrwIKmwbA" superActivities="_E5k-Ub5OEe2VhOrwIKmwbA" linkToPredecessor="_Gbef0L5XEe2VhOrwIKmwbA _GbgVAL5XEe2VhOrwIKmwbA" variabilityType="extends">
+        <methodElementProperty xmi:id="_2QxFYL5OEe2VhOrwIKmwbA" name="wbe_GlobalPresentedAfter" value="_E5k-Ub5OEe2VhOrwIKmwbA"/>
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_KGs_8L5NEe2VhOrwIKmwbA#_KGs_8b5NEe2VhOrwIKmwbA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Gbef0L5XEe2VhOrwIKmwbA" guid="_Gbef0L5XEe2VhOrwIKmwbA" pred="_cWmCZb5OEe2VhOrwIKmwbA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_GbgVAL5XEe2VhOrwIKmwbA" guid="_GbgVAL5XEe2VhOrwIKmwbA" pred="_cWmCY75OEe2VhOrwIKmwbA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_cWmCYr5OEe2VhOrwIKmwbA" name="prepare_meal" guid="_cWmCYr5OEe2VhOrwIKmwbA">
+      <processElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_cWmCY75OEe2VhOrwIKmwbA" name="prepare_meal" guid="_cWmCY75OEe2VhOrwIKmwbA" superActivities="_E5k-Ub5OEe2VhOrwIKmwbA" linkToPredecessor="_FwqoQL5XEe2VhOrwIKmwbA" variabilityType="extends">
+        <methodElementProperty xmi:id="_2QweUb5OEe2VhOrwIKmwbA" name="wbe_GlobalPresentedAfter" value="_Y1sugb5OEe2VhOrwIKmwbA"/>
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_0HwcYL5MEe2VhOrwIKmwbA#_0HwcYb5MEe2VhOrwIKmwbA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_FwqoQL5XEe2VhOrwIKmwbA" guid="_FwqoQL5XEe2VhOrwIKmwbA" pred="_Y1sugb5OEe2VhOrwIKmwbA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_cWmCZL5OEe2VhOrwIKmwbA" name="server_meal" guid="_cWmCZL5OEe2VhOrwIKmwbA">
+      <processElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_cWmCZb5OEe2VhOrwIKmwbA" name="server_meal" guid="_cWmCZb5OEe2VhOrwIKmwbA" superActivities="_E5k-Ub5OEe2VhOrwIKmwbA" linkToPredecessor="_FwpaIL5XEe2VhOrwIKmwbA" variabilityType="extends">
+        <methodElementProperty xmi:id="_2oPxQL5OEe2VhOrwIKmwbA" name="wbe_GlobalPresentedAfter" value="_cWmCY75OEe2VhOrwIKmwbA"/>
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_5ZXf8L5MEe2VhOrwIKmwbA#_5ZXf8b5MEe2VhOrwIKmwbA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_FwpaIL5XEe2VhOrwIKmwbA" guid="_FwpaIL5XEe2VhOrwIKmwbA" pred="_Y1sugb5OEe2VhOrwIKmwbA"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_E5k-Ub5OEe2VhOrwIKmwbA" name="host_a_meal" guid="_E5k-Ub5OEe2VhOrwIKmwbA" presentationName="Host a Meal" breakdownElements="_cWmCYb5OEe2VhOrwIKmwbA _Y1sugb5OEe2VhOrwIKmwbA _cWmCY75OEe2VhOrwIKmwbA _cWmCZb5OEe2VhOrwIKmwbA">
+      <presentation xmi:id="-PAWpU2t9IH7UfBUk5ouUQw" href="uma://-PAWpU2t9IH7UfBUk5ouUQw#-PAWpU2t9IH7UfBUk5ouUQw"/>
+      <defaultContext href="uma://_2qjHgL3DEe2LKs9kSIoQqg#_X5HTQL3GEe2LKs9kSIoQqg"/>
+      <validContext href="uma://_2qjHgL3DEe2LKs9kSIoQqg#_X5HTQL3GEe2LKs9kSIoQqg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

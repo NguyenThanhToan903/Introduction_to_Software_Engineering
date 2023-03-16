@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_gvWcgLjWEe27htaXTmHK0g" guid="_gvWcgLjWEe27htaXTmHK0g">
+    <resourceDescriptors xmi:id="_gvWcgbjWEe27htaXTmHK0g" id="-u5j5M2ARZcVm7i7dE5VqaA" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_gu-CALjWEe27htaXTmHK0g" name="clean_up" guid="_gu-CALjWEe27htaXTmHK0g">
+    <methodElementProperty xmi:id="_gu-pELjWEe27htaXTmHK0g" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_Bu_tYLjXEe27htaXTmHK0g" name="me_edited" value="true"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_o9050LjWEe27htaXTmHK0g" name="clean_up" guid="_o9050LjWEe27htaXTmHK0g" presentationName="Clean Up" superActivities="_gu-CAbjWEe27htaXTmHK0g">
+      <methodElementProperty xmi:id="_o92H8LjWEe27htaXTmHK0g" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_jnwK0LjHEe27htaXTmHK0g#_zmFj4LjUEe27htaXTmHK0g"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_gu-CAbjWEe27htaXTmHK0g" name="clean_up" guid="_gu-CAbjWEe27htaXTmHK0g" presentationName="Clean Up" breakdownElements="_o9050LjWEe27htaXTmHK0g">
+      <presentation xmi:id="-u5j5M2ARZcVm7i7dE5VqaA" href="uma://-u5j5M2ARZcVm7i7dE5VqaA#-u5j5M2ARZcVm7i7dE5VqaA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

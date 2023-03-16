@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-xcjROVPTTr2H_WMn0B_Zvg" name="server_meal,_PV2HIL3FEe2LKs9kSIoQqg" guid="-xcjROVPTTr2H_WMn0B_Zvg">
+  <sections xmi:id="_vuPwQMJDEe2-yuQwcTQebA" name="Serve Appetizer" guid="_vuPwQMJDEe2-yuQwcTQebA">
+    <sectionDescription>In this task, the &lt;a class=&quot;elementLink&quot; href=&quot;./../../meal_planning/roles/server_E1295B4E.html&quot;&#xD;
+guid=&quot;_BZDcIL3FEe2LKs9kSIoQqg&quot;>Server&lt;/a>&amp;nbsp;starts the &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../meal_planning/workproducts/meal_7A0441E5.html&quot; guid=&quot;_Gj6M4L3EEe2LKs9kSIoQqg&quot;>Meal&lt;/a>&amp;nbsp;by serving an&#xD;
+&lt;em>incredibly delicious&lt;/em> appertizer to the patron.</sectionDescription>
+  </sections>
+  <sections xmi:id="_zeOB8MJDEe2-yuQwcTQebA" name="Serve Entree" guid="_zeOB8MJDEe2-yuQwcTQebA"/>
+  <sections xmi:id="_2KjFUMJDEe2-yuQwcTQebA" name="Serve Dessert" guid="_2KjFUMJDEe2-yuQwcTQebA"/>
+</org.eclipse.epf.uma:TaskDescription>
